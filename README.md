@@ -103,7 +103,7 @@ Fetch API (for Weather & Quotes)
 
 Clone the repo:
 
-git clone https://github.com/your-username/js-mini-projects.git
+git clone https://github.com/Shineshine65/js-mini-projects.git
 
 
 Navigate into any project folder:
