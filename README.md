@@ -47,26 +47,30 @@ Millisecond accuracy
 
 Clean, minimal UI
 
-3️⃣ Weather App (WeatherAPI)
+3️⃣ Weather App — Pangasinan Only
 
-Fetches real-time weather data using a public API (e.g., OpenWeatherMap).
+A simple weather widget that automatically displays the current weather in Pangasinan, Philippines.
+There is no search bar — the app is intentionally designed to show the weather for one fixed location.
+
+✔️ Features
+
+Automatically loads weather for Pangasinan, PH
+
 Displays:
 
-Temperature
+Location name
 
-Weather condition
+Current temperature
 
-City name
+Weather condition (e.g., cloudy, sunny)
 
-Weather icon
+Humidity level
 
-Features:
+Wind speed
 
-Async API calls
+Clean UI with a soft gradient background
 
-Error handling (invalid city names)
-
-Modern UI layout
+Responsive card-style layout
 
 4️⃣ Quotable API – Random Quote Generator
 
