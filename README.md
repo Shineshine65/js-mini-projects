@@ -89,30 +89,6 @@ Fast API responses
 
 Clean typography
 
-📂 Folder Structure
-Sunshine-Santos/
-  js-mini-projects/
-  │
-  ├── calculator/
-  │   ├── index.html
-  │   ├── style.css
-  │   └── script.js
-  │
-  └── quotable/
-  │   ├── index.html
-  │   ├── style.css
-  │   └── script.js
-  │
-  ├── stopwatch/
-  │   ├── index.html
-  │   ├── style.css
-  │   └── script.js
-  │
-  ├── weather-api/
-      ├── index.html
-      ├── style.css
-      └── script.js
-
 📦 Technologies Used
 
 HTML5
