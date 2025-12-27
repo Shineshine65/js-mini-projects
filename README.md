@@ -1,119 +1,67 @@
-# js-mini-projects
-js-mini-projects
+# Weather App
 
-📘 JS Mini Projects
+## Project Type
+Solo project
 
-A collection of simple yet useful JavaScript mini projects built to practice DOM manipulation, API consumption, and basic UI design.
-This repository currently includes:
+## Description
+A simple weather application that allows users to search for any city and view the current weather conditions and a 5-day forecast. The app uses the OpenWeather API to fetch real-time weather data and displays it in a clean, minimal user interface.
 
-🧮 Calculator
+---
 
-⏱️ Stopwatch
+## Project Overview
+This project demonstrates how to build a weather dashboard using HTML, CSS, and JavaScript. Users can enter a city name to get instant weather updates, including temperature, weather description, and location details. The app is designed for clarity and ease of use, making it ideal for both learning and demonstration purposes.
 
-🌤️ Weather App (WeatherAPI)
+---
 
-💬 Quotable API Random Quote Generator
+## Main Features
+- Search for current weather by city name
+- Display temperature, weather description, and country
+- Minimal, responsive UI
+- Error handling for invalid city names or API issues
+- Powered by OpenWeather API
 
-🚀 Projects Overview
-1️⃣ Calculator
+---
 
-A basic calculator that supports:
+## APIs Used
+### OpenWeather API
+- **Base URL:** `https://api.openweathermap.org/data/2.5/`
+- **Endpoints:**
+  - `/weather` (current weather)
+  - `/forecast` (5-day forecast)
+- **Parameters:**
+  - `q` (city name)
+  - `appid` (API key)
+  - `units` (metric/imperial)
+- **Authentication:** API key required (passed as `appid` parameter)
 
-Addition, subtraction, multiplication, division
+---
 
-Clear button
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-Smooth, responsive UI
+---
 
-Keyboard-friendly input (optional)
+## Getting Started
 
-Features:
+### 1. Clone or Download the Repository
+```sh
+git clone <repository-url>
+```
+Or download the ZIP and extract it.
 
-Clean display
+### 2. Run the Project Locally
+1. Open the `final-project-elec3/weather-api` folder.
+2. Open `index.html` in your web browser.
+3. Enter a city name and click "Search" to view the weather.
 
-Real-time operations
+---
 
-Error handling for invalid inputs
+## Credits / API Attribution
+- Weather data provided by [OpenWeather](https://openweathermap.org/)
 
-2️⃣ Stopwatch
+---
 
-A simple and accurate stopwatch built using JavaScript timing functions.
-
-Features:
-
-Start, Stop, Reset
-
-Millisecond accuracy
-
-Clean, minimal UI
-
-3️⃣ Weather App — Pangasinan Only
-
-A simple weather widget that automatically displays the current weather in Pangasinan, Philippines.
-There is no search bar — the app is intentionally designed to show the weather for one fixed location.
-
-✔️ Features
-
-Automatically loads weather for Pangasinan, PH
-
-Displays:
-
-Location name
-
-Current temperature
-
-Weather condition (e.g., cloudy, sunny)
-
-Humidity level
-
-Wind speed
-
-Clean UI with a soft gradient background
-
-Responsive card-style layout
-
-4️⃣ Quotable API – Random Quote Generator
-
-Fetches random inspirational quotes from the Quotable API.
-Every request returns:
-
-Quote text
-
-Author name
-
-Features:
-
-Simple “New Quote” button
-
-Fast API responses
-
-Clean typography
-
-📦 Technologies Used
-
-HTML5
-
-CSS3
-
-JavaScript (ES6)
-
-Fetch API (for Weather & Quotes)
-
-🛠️ How to Run the Projects
-
-Clone the repo:
-
-git clone https://github.com/Shineshine65/js-mini-projects.git
-
-
-Navigate into any project folder:
-
-cd js-mini-projects/calculator
-
-
-Open index.html in your browser.
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to suggest improvements, report bugs, or submit a pull request.
+## Notes
+- You need a free API key from OpenWeather to use this app. Sign up at [https://openweathermap.org/appid](https://openweathermap.org/appid) and replace the placeholder in your JavaScript code.
